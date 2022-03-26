@@ -1,0 +1,432 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+@keyframes fadeInBtn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.comeback {
+  position: fixed;
+  transform: scale(0.5);
+  top: 37vw;
+  left: 80vw;
+  z-index: 200;
+  animation: fadeInBtn 1s 2s both;
+}
+
+.bg1__container {
+  height: 50vw;
+  width: 100%;
+
+  background-image: url("./../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+}
+
+.logoMain {
+  height: 40vw;
+  margin: 0 auto;
+  padding-top: 10%;
+  width: 90%;
+  background-image: url("./../img/brLogoMain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+
+.div__wp {
+  height: 12vw;
+  width: 100%;
+
+  background-image: url("./../img/divWhitepaper.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+
+  position: absolute;
+  top: 45vw;
+}
+
+.bg2__container {
+  height: 50vw;
+  width: 100%;
+  background-image: url("./../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -5;
+}
+
+.wood__book {
+  height: 60vw;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url("./../img/plate.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 45%;
+  position: relative;
+}
+
+.book {
+  height: 30vw;
+  margin: 0 auto;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 12;
+  left: 30vw;
+  top: -55vw;
+  transition: 200ms;
+}
+
+.book img {
+  transition: 200ms;
+  margin: 10vw;
+  height: 25vw;
+}
+
+.book img:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+.bg3__container {
+  height: 60vw;
+  width: 100%;
+
+  background-image: url("./../img/bg3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+}
+
+.plate__trailer {
+  height: 40vw;
+  margin-left: 2vw;
+  width: 50%;
+
+  background-image: url("./../img/plateTrailer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  position: relative;
+  top: -100;
+}
+
+.div__wood0 {
+  height: 5vw;
+  width: 100%;
+
+  background-image: url("./../img/div.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  position: absolute;
+  top: 48vw;
+}
+
+.div__wood1 {
+  height: 5vw;
+  width: 100%;
+
+  background-image: url("./../img/div.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  position: absolute;
+  top: 98vw;
+  z-index: 10;
+}
+
+.div__wood2 {
+  height: 5vw;
+  width: 100%;
+  background-image: url("./../img/div.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  top: 158vw;
+  z-index: 10;
+}
+
+.txt__trailer {
+  height: 20vw;
+  width: 22%;
+  margin: 0 auto;
+  background-image: url("./../img/txtPlateTrailer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  position: absolute;
+  top: 95vw;
+  left: 16vw;
+}
+
+.video {
+  position: absolute;
+  left: 6vw;
+  top: 111vw;
+  transform: scale(0.85);
+  z-index: 12;
+}
+
+.video iframe {
+  width: 44vw;
+  height: 24vw;
+}
+.bg4__container {
+  width: 100%;
+  height: 70vw;
+  background-image: url("./../img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 3px solid #e1ae00;
+  z-index: -50;
+}
+
+.txt__rm {
+  height: 12vw;
+  width: 100%;
+  background-image: url("./../img/roadmap.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+
+  position: absolute;
+  top: 154vw;
+  z-index: 10;
+  transform: scale(0.8);
+}
+
+.folha_esq {
+  width: 20%;
+  height: 32vw;
+  background-image: url("./../img/folhaDivisao2.png");
+  background-repeat: no-repeat;
+  background-size: 10vw;
+  position: absolute;
+  top: 152vw;
+  z-index: 10;
+}
+
+.folha_dir {
+  width: 20%;
+  height: 20vw;
+  background-image: url("./../img/folhaDivisao1.png");
+  background-repeat: no-repeat;
+  background-size: 10vw;
+  background-position: right;
+  position: absolute;
+  top: 87vw;
+  left: 80vw;
+  z-index: 10;
+}
+
+.roadmap {
+  width: 100%;
+  height: 50vw;
+  background-image: url("./../img/txtRoadmap.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  position: absolute;
+  top: 165vw;
+  z-index: 12;
+}
+
+/*Mobile*/
+
+@media (max-width: 600px) {
+  .bg1__container {
+    width: 100%;
+    height: 150vw;
+  }
+
+  .logoMain {
+    background-size: 110%;
+    height: 160vw;
+    top: -10vw;
+  }
+
+  .div__wood0 {
+    width: 100%;
+    height: 5vw;
+    top: 148vw;
+  }
+
+  .div__wp {
+    width: 100%;
+    height: 20vw;
+    top: 140vw;
+    background-size: 70%;
+  }
+
+  .bg2__container {
+    width: 100%;
+    height: 150vw;
+  }
+
+  .book {
+    width: 40%;
+    height: 55vw;
+    left: 11vh;
+    top: -122.5vw;
+    background-size: 60%;
+    transform: scale(0.4);
+  }
+
+  .wood__book {
+    width: 100%;
+    height: 160vw;
+    background-image: url("./../img/plate.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+  }
+
+  .div__wood1 {
+    width: 100%;
+    height: 5vw;
+    top: 298vw;
+  }
+
+  .bg3__container {
+    width: 100%;
+    height: 90vw;
+  }
+
+  .bg4__container {
+    width: 100%;
+    height: 150vw;
+    z-index: -10;
+  }
+
+  .div__wood2 {
+    width: 100%;
+    height: 5vw;
+    top: 388vw;
+  }
+
+  .plate__trailer {
+    width: 95%;
+    height: 76vw;
+  }
+
+  .txt__trailer {
+    width: 50%;
+    height: 20vw;
+    top: 300vw;
+    left: 25vw;
+  }
+
+  .video {
+    position: absolute;
+    top: 305vw;
+    transform: scale(0.5) translateX(-53%);
+  }
+
+  .bg4__container {
+    width: 100%;
+    height: 90vw;
+    background-image: url("./../img/bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .txt__rm {
+    width: 100%;
+    top: 384vw;
+    z-index: 10;
+  }
+
+  .folha_esq {
+    width: 20%;
+    top: 382vw;
+    z-index: 10;
+  }
+
+  .folha_dir {
+    width: 20%;
+    top: 288vw;
+    left: 80vw;
+    z-index: 10;
+  }
+
+  .roadmap {
+    width: 100%;
+    height: 60vw;
+    background-image: url("./../img/txtRoadmap.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 400vw;
+    z-index: 10;
+  }
+
+  .book img {
+    transition: 200ms;
+    margin: 80vw;
+    height: 100vw;
+  }
+  .book {
+    height: 30vw;
+    margin: 0 auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 12;
+    top: -146vw;
+    left: -26vw;
+  }
+  .video {
+    position: absolute;
+    transform: scale(0.85);
+    z-index: 12;
+    top: 319vw;
+  }
+
+  .video iframe {
+    width: 88vw;
+    height: 48vw;
+  }
+
+  .bg4__container {
+    background-image: url("./../img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid #e1ae00;
+    z-index: -50;
+  }
+  .comeback {
+    position: fixed;
+    transform: scale(0.4);
+    top: 125vw;
+    left: 62vw;
+
+    z-index: 100;
+    animation: fadeInBtn 1s 2s both;
+  }
+}
