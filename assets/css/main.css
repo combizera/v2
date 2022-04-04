@@ -15,7 +15,7 @@ html {
 .comeback {
   position: fixed;
   transform: scale(0.45);
-  top: 34vw;
+  top: 33vw;
   left: 80vw;
   z-index: 200;
   animation: fadeInBtn 1s 2s both;
@@ -170,7 +170,7 @@ html {
   background-size: 100%;
 
   position: absolute;
-  top: 145vw;
+  top: 144vw;
   z-index: 10;
 }
 
